@@ -8,6 +8,7 @@ import Login from './component/Login'
 import Signup from './component/Signup';
 import './styles/tailwind.css'
 import Head from './component/Head';
+import Footer from './component/Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/login' component={Login} />
         <Route path='/signup' component={Signup} />
       </Switch>
+      <Footer/>
     </Router>
   )
 }
